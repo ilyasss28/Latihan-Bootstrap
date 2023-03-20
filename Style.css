@@ -1,0 +1,264 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    color: white;
+}
+/* Navbar */
+nav{
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    transition: background-color 0.5s ease;
+}
+
+.scrolled {
+    background-color: #393053; /* Atur warna latar belakang setelah di scroll */
+}
+
+.navbar h4{
+    width: 50%;
+    margin: 0;
+    position: relative;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: white;
+}
+
+.navbar{
+    float: right;
+    width: 100%;
+}
+
+.navbar ul{
+    float: right;
+    display: flex;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+/* Navbar */
+
+/* Home */
+.images{
+    display: flex;
+    width: 100%;
+    transition: 2s;
+}
+
+.images img{
+    width: 100%;
+}
+
+.wrapper{
+    height: 570px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#slide-2:target ~ .images{
+    margin-left: -100%;
+}
+
+#slide-3:target ~ .images{
+    margin-left: -200%;
+}
+
+.wrapper .navigasi{
+    margin: auto;
+    padding-top: 180px;
+    text-align: center;
+}
+
+.wrapper .navigasi a{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #dedede;
+    font-size: 0px;
+    border-radius: 50%;
+    margin: 3px;
+    transition: 1s;
+}
+
+.navigasi a:hover{
+    background-color: #666;
+}
+
+.wrapper .welcome{
+    margin: auto;
+    margin-top: -50%;
+    text-align: center;
+    color: white;
+}
+
+.wrapper .welcome p{
+    font-size: 20px;
+
+}
+
+/* Home */
+
+/* About */
+.about {
+    background-color: #100720;
+    color: white;
+}
+
+.about h2{
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.about p{
+    padding-left: 50%;
+    padding-right: 70px;
+    margin-top: 50px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.about img{
+    width: 40%;
+    margin-top: -25%;
+    margin-bottom: 10px;
+    left: -30px;
+}
+
+.about p button{
+    color: white;
+    background-color: #E90064;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 0;
+}
+
+.about button:hover{
+    background-color: #03C988;
+}
+/* About */
+
+/* Service */
+.service{
+    background-color: #18122B;
+    margin: auto;
+    width: 100%;
+}
+
+.title h2{
+    margin-top: -20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #100720;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    height: 365px;
+    width: 335px;
+}
+
+.card i{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #E90064;
+}
+
+.card h5{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.pra p{
+    line-height: 25px;
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+
+.pra .button{
+    background-color: #03C988;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.pra .button:hover{
+    background-color: #E90064;
+}
+/* Service */
+/* Contact */
+.contact{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #100720;
+    align-items: center;
+    justify-content: center;
+}
+
+.sosial{
+    margin: 25px 10px 25px 10px;
+}
+
+.sosial a{
+    padding: 10px;
+    border-radius: 30%;
+    color: white;
+    margin: 10px;
+    background-color:#E90064;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sosial a:hover{
+    background-color: #03C988;
+}
+
+.end{
+    font-size: 10px;
+}
+
+svg{
+    background-color: #100720;
+}
+/* Contact */
